@@ -1,0 +1,8 @@
+rootProject.name = 'lib-links'
+rootProject.buildFileName = 'build.gradle.kts'
+
+include 'core'
+project(':core').buildFileName = 'build.gradle.kts'
+
+include 'gradle-plugin'
+project(':gradle-plugin').buildFileName = 'build.gradle.kts'
